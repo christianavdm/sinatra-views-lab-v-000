@@ -5,15 +5,15 @@ class App < Sinatra::Base
 	end
 
 	get '/hello' do
-		erb :hello.erb
+		erb :hello
 	end
 
 	get '/goodbye' do
-		erb :goodbye.erb
+		erb :goodbye
 	end
 
 	get '/date' do
-		erb :date.erb
+		erb :date
 	end
 
 end
